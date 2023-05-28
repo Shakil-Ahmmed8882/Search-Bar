@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  background: #79e0ee no-repeat;
+  padding-bottom: 2rem;
+}
+.site-wrap {
+  margin: 0.8rem;
+}
+/* ====== 1: Search section ====== */
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.search-wrapper > label {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+.search-wrapper > input {
+  padding: 0.2rem;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.2rem;
+}
+
+/* ====== 2: UserInfo section ====== */
+.user-cards-container {
+  background-color: #fff;
+  color: #000000;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 0.3rem;
+}
+.user-cards-container > .card {
+  border: 1px solid #64636399;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  border-radius: 4px;
+}
+.header {
+  font-size: 1.1rem;
+}
+.body {
+  font-size: 0.8rem;
+  color: #777;
+}
+.hide {
+  display: none;
+}
